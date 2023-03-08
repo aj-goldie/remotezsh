@@ -12,5 +12,8 @@ wget https://raw.githubusercontent.com/aj-goldie/remotezsh/main/functions.zsh -O
 # Change the default shell to zsh
 chsh -s $(which zsh)
 
+# Pause to allow the shell to change
+sleep 1
+
 # source the .zshrc file, which will source the aliases and functions
 source ~/.zshrc
