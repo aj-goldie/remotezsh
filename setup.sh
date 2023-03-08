@@ -5,7 +5,8 @@ sudo apt-get update && sudo apt-get install -y zsh
 
 # Download the .zshrc file from GitHub
 wget https://raw.githubusercontent.com/aj-goldie/remotezsh/main/.zshrc -O ~/.zshrc
-
+wget https://raw.githubusercontent.com/aj-goldie/remotezsh/main/aliases.zsh -O ~/.zsh/aliases.zsh
+wget https://raw.githubusercontent.com/aj-goldie/remotezsh/main/functions.zsh -O ~/.zsh/functions.zsh
 # Change the default shell to zsh
 chsh -s $(which zsh)
 
