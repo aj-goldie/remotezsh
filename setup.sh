@@ -8,3 +8,6 @@ wget https://raw.githubusercontent.com/username/repo/main/.zshrc -O ~/.zshrc
 
 # Change the default shell to zsh
 chsh -s $(which zsh)
+
+# source the .zshrc file, which will source the aliases and functions
+source ~/.zshrc
