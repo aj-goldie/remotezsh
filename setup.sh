@@ -1,6 +1,9 @@
+### This wasn't working, so for now I decided to run this script using my local .sshrc file instead of curl'ing this hosted file.
+
+
 #!/bin/bash
 
-# Update the package index and install zsh
+# Update the package index and ins whytall zsh
 sudo apt-get update && sudo apt-get install -y zsh
 # Make the ~/.zsh directory for your alias and function files.
 mkdir -p ~/.zsh
@@ -17,3 +20,6 @@ sleep 1
 
 # source the .zshrc file, which will source the aliases and functions
 source ~/.zshrc
+
+
+
