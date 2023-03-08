@@ -1,7 +1,7 @@
 
-# Make cd automatically show the contents of the directory.
+# Make cd automatically show the contents of the directory and permissions in vertical format.
 function cd {
-    builtin cd "$@" && ls -a
+    builtin cd "$@" && ls -la
 }
 
 # In order to not show the contents, use the command, cdd.
